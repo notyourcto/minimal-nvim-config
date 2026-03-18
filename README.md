@@ -1,6 +1,6 @@
 # minimal-nvim-config
 
-A clean and  minimal neovim setup built from scratch using ""lazy.nvim**.
+A clean and  minimal neovim setup built from scratch using **lazy.nvim**.
 
 This config is ideal for ppl who:
 - dont want fully pre configured setups like lazyvim or Nvchad
