@@ -80,6 +80,7 @@ This config is intentionally:
 - minimal but usable
 - readable and beginner friendly
 - easy to extend
+  
 it is meant to help and use neovim from day 1, and not hide it behind abstraction.
 
 ---
