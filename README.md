@@ -85,7 +85,7 @@ it is meant to help and use neovim from day 1, and not hide it behind abstractio
 ---
 
 ## Notes
-> Read `keymaps.lua` — it contains comments explaining how mappings work.
+> Read `keymaps.lua` - it contains comments explaining how mappings work.
 > This will help u understand how to customize your own setup.
 
 ---
