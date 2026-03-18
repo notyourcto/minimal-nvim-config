@@ -37,7 +37,7 @@ make sure u have these installed:
 - Git
 - for formatting support u should also have stylua, clang, shfmt, black, prettier.
 
-> This config uses the new Neovim LSP API ('vim.lsp.enable') and latest realease of tree-sitter which may not on stable releases.
+> This config uses the new Neovim LSP API ('vim.lsp.enable') and latest realease of tree-sitter which may not work on stable releases.
 
 ---
 
