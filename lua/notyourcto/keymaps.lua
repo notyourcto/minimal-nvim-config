@@ -1,3 +1,18 @@
+-- Keymap format:
+-- keymap.set(mode, key, action)
+--
+-- mode  → where the mapping works
+-- "n" = normal mode
+-- "i" = insert mode
+-- "v" = visual mode
+-- "t" = terminal mode
+--
+-- key   → key you press
+-- action → what happens when pressed
+--
+-- <leader> = Space (set in options.lua)
+-- <C-x> = Ctrl + x
+-- <S-x> = Shift + x
 local keymap = vim.keymap
 
 --Telescope

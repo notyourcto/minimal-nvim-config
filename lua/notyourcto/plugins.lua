@@ -45,6 +45,10 @@ return {
 				y = { name = "yank" },
 				p = { name = "paste" },
 				cf = { name = "code formating" },
+				a = { name = "end of line" },
+				q = { name = "quit" },
+				w = { name = "write" },
+				e = { name = "explorer" },
 			}, { prefix = "<leader>" })
 		end,
 	},
@@ -154,8 +158,16 @@ return {
 		opts = {
 			enabled = true,
 			stiffness = 1.0,
-			trailing_stiffness = 0.3,
-			distance_stop_animating = 0.9,
+			trailing_stiffness = 0.2,
+			distance_stop_animating = 0.05,
+			cursor_color = "#ffffff",
+		},
+		modes = {
+			normal = true,
+			insert = true,
+			visual = true,
+			terminal = true,
+			cmdline = true,
 		},
 	},
 
