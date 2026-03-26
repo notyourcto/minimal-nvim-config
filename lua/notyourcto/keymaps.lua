@@ -56,7 +56,7 @@ keymap.set("n", "<leader>gd", "<cmd>Git diff<cr>")
 keymap.set("n", "<leader>gb", "<cmd>Git blame<cr>")
 keymap.set("n", "<leader>gc", "<cmd>Git commit<cr>")
 
-keymap.set("n", "<leader>e", "g_")
+keymap.set("n", "<leader>g", "g_")
 
 --insert mode navigation
 keymap.set("i", "<C-h>", "<Left>")
